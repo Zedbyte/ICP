@@ -1,0 +1,166 @@
+/* #title-hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+} */
+
+#services {
+    background: linear-gradient(45deg, rgb(121, 189, 233, 0.9) 0%, rgba(151, 146, 197, 0.9) 100%), url("/assets/img/hero-bg.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.content-wrapper {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 30px 0;
+}
+
+#services .title {
+    transition: all 0.6s linear;
+    color: greenyellow;
+}
+
+#services .description {
+    color: white;
+
+    text-align: justify;
+    line-height: 2.6;
+}
+
+#services .description-question {
+    font-style: italic;
+    font-size: 3.5rem;
+    line-height: 1.6;
+}
+
+#services {
+    margin-bottom: 8rem;
+}
+
+#services .container,
+#services .container-fluid {
+  padding-top: 84px;
+}
+
+#services h1 {
+  margin: 0;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+}
+
+#services h2 {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 10px 0 0 0;
+  font-size: 20px;
+}
+
+#services img {
+    border-radius: 20px;
+}
+
+#services .btn-get-started {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin: 30px 0;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+#services .btn-get-started:hover {
+  background: #fff;
+  color: #005aeb;
+}
+
+#services .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@media (min-width: 1200px) {
+  #services {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 991px) {
+  #services {
+    text-align: center;
+  }
+
+  #services .container,
+  #services .container-fluid {
+    padding-top: 68px;
+  }
+
+  #services .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+
+  #services .services-img {
+    text-align: center;
+  }
+
+  #services .services-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #services h1 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  #services h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  #services .services-img img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 575px) {
+  #services .services-img img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 575px),
+(max-height: 600px) {
+  #services {
+    height: auto;
+  }
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@media all and (max-width: 980px) {
+    
+}
